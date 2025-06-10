@@ -6,6 +6,10 @@ pub fn sub(left: u64, right: u64) -> u64 {
     left - right
 }
 
+pub fn mul(left: u64, right: u64) -> u64 {
+    left * right
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
