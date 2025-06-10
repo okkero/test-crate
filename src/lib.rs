@@ -2,7 +2,7 @@ pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
 
-pub sub(left: u64, right: u64) -> u64 {
+pub fn sub(left: u64, right: u64) -> u64 {
     left - right
 }
 
