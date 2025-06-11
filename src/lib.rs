@@ -14,6 +14,10 @@ pub fn div(left: u64, right: u64) -> u64 {
     left / right
 }
 
+pub fn r#mod(left: u64, right: u64) -> u64 {
+    left % right
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
